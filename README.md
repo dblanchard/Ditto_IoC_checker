@@ -3,7 +3,7 @@ Ditto is a powerful clipboard manager for Windows that can run scripts on the cl
 
 ## Example Use Case
 A threat intelligence analyst receives a CISA or MS-ISAC report with some command and control IPs and a hash value for an image that is used in a phishing campaign. The analyst copies the IPs and hash value causing Ditto to check the file. If found, the script displays the existing record(s) including:
-- IP
+- IP 
 - Domain
 - Filename
 - Hash
@@ -17,4 +17,14 @@ A threat intelligence analyst receives a CISA or MS-ISAC report with some comman
 The script will also allow the user to share the found data with Ditto "friends".
 
 If the data aren't found, the user can choose to add it to the file.
+
+##RegExes used:
+Hashes (MD5, SHA-1, SHA-256, SHA-512, Authentihash, or SSDEEP)
+\b((25[0-5]|2[0-4][0-9]|1\d\d|[1-9]?\d)(\.|$)){4}\b
+
+IPv4
+\b((25[0-5]|2[0-4][0-9]|1\d\d|[1-9]?\d)(\.|$)){4}\b
+
+IPv6
+\b([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}\b
 
