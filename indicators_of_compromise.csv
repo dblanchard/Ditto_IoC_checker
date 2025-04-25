@@ -13,3 +13,11 @@ IP,Domain,Filename,Hash,Timestamp,Threat Level,Source,Description,Campaign,Attri
 23.192.228.80,example.com,,,,high,test,Description,Campaign,Attribution,Notes
 23.192.228.84,example.com,,,,medium,test,Description,Campaign,Attribution,Notes
 96.7.128.198,example.com,,,,low,test,Description,Campaign,Attribution,Notes
+,,,d41d8cd98f00b204e9800998ecf8427e,,test,MD5,Campaign,Attribution,Notes
+,,,da39a3ee5e6b4b0d3255bfef95601890afd80709,,test,SHA-1,Campaign,Attribution,Notes
+,,,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,,test,SHA-256,Campaign,Attribution,Notes
+,,,cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e,,test,SHA-512,Campaign,Attribution,Notes
+,,,3072:kMzJXW...,,test,SSDEEP (truncated for brevity),Campaign,Attribution,Notes
+,,,1234567890abcdef1234567890abcdef:metadata,,test,Authentihash,Campaign,Attribution,Notes
+,,,1234567890abcdef1234567890abcdef,,test,IMPHASH,Campaign,Attribution,Notes
+
